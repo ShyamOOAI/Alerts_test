@@ -1,0 +1,51 @@
+{
+  "id": "2tqeZwPZB4GMILoD2zY34Dd4bAF",
+  "name": "cron",
+  "org_id": "org_pytest_data",
+  "stream_type": "logs",
+  "stream_name": "pytest",
+  "is_real_time": false,
+  "query_condition": {
+    "type": "custom",
+    "conditions": [
+      {
+        "column": "code",
+        "operator": "=",
+        "value": "200",
+        "ignore_case": false
+      }
+    ],
+    "sql": null,
+    "promql": null,
+    "promql_condition": null,
+    "aggregation": null,
+    "vrl_function": null,
+    "search_event_type": null,
+    "multi_time_range": []
+  },
+  "trigger_condition": {
+    "period": 10,
+    "operator": ">=",
+    "threshold": 3,
+    "frequency": 2,
+    "cron": "1 40 * * * *",
+    "frequency_type": "cron",
+    "silence": 10,
+    "timezone": "UTC",
+    "tolerance_in_secs": null
+  },
+  "destinations": [
+    "newdest_14024"
+  ],
+  "context_attributes": {},
+  "row_template": "",
+  "description": "",
+  "enabled": true,
+  "tz_offset": 0,
+  "last_triggered_at": 0,
+  "last_satisfied_at": null,
+  "owner": "root@example.com",
+  "updated_at": "2025-03-04T10:28:10Z",
+  "last_edited_by": "root@example.com",
+  "uuid": "05552d1f-92d8-421c-b72e-1916a959af5a"
+}
