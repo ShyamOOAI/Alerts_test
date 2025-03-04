@@ -1,0 +1,7 @@
+{
+  "name": "newtemp_78291",
+  "body": "{\"text\": \"For stream {stream_name} of organization {org} alert {alert_name} of type {alert_type} is active\"}",
+  "isDefault": true,
+  "type": "http",
+  "title": ""
+}
