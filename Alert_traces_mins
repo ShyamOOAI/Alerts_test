@@ -1,0 +1,66 @@
+[
+    {
+        "name": "traces_Alert",
+        "org_id": "default",
+        "stream_type": "traces",
+        "stream_name": "default",
+        "is_real_time": false,
+        "query_condition": {
+            "type": "custom",
+            "conditions": [
+                {
+                    "column": "duration",
+                    "operator": "=",
+                    "value": "123"
+                }
+            ],
+            "multi_time_range": []
+        },
+        "trigger_condition": {
+            "period": 10,
+            "operator": ">=",
+            "threshold": 3,
+            "frequency": 2,
+            "cron": "",
+            "frequency_type": "minutes",
+            "silence": 10
+        },
+        "destinations": [
+            "o2-destination"
+        ],
+        "context_attributes": {},
+        "enabled": true
+    },
+    {
+        "name": "traces_Alert",
+        "org_id": "default",
+        "stream_type": "traces",
+        "stream_name": "default",
+        "is_real_time": false,
+        "query_condition": {
+            "type": "custom",
+            "conditions": [
+                {
+                    "column": "duration",
+                    "operator": "=",
+                    "value": "123"
+                }
+            ],
+            "multi_time_range": []
+        },
+        "trigger_condition": {
+            "period": 10,
+            "operator": ">=",
+            "threshold": 3,
+            "frequency": 2,
+            "cron": "",
+            "frequency_type": "minutes",
+            "silence": 10
+        },
+        "destinations": [
+            "o2-destination"
+        ],
+        "context_attributes": {},
+        "enabled": true
+    }
+]
