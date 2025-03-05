@@ -6,9 +6,7 @@
         "skip_tls_verify": true,
         "headers": {},
         "template": "7",
-        "emails": [],
-        "type": "http",
-        "action_id": ""
+        "type": "http"
     },
     {
         "name": "destination_Web_Hook",
@@ -17,8 +15,6 @@
         "skip_tls_verify": true,
         "headers": {},
         "template": "7",
-        "emails": [],
-        "type": "http",
-        "action_id": ""
+        "type": "http"
     }
 ]
