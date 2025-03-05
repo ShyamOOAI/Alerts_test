@@ -2,15 +2,11 @@
   {
     "name": "Alert_Template_Web_Hook",
     "body": "[\n  {\n    \"labels\": {\n        \"alertname\": \"{alert_name}\",\n        \"stream\": \"{stream_name}\",\n        \"organization\": \"{org_name}\",\n        \"alerttype\": \"{alert_type}\",\n        \"severity\": \"critical\"\n    },\n    \"annotations\": {\n        \"timestamp\": \"{timestamp}\"\n    }\n  }\n]",
-    "isDefault": true,
-    "type": "http",
-    "title": ""
+    "type": "http"
   },
   {
     "name": "Alert_Template_Web_Hook",
     "body": "[\n  {\n    \"labels\": {\n        \"alertname\": \"{alert_name}\",\n        \"stream\": \"{stream_name}\",\n        \"organization\": \"{org_name}\",\n        \"alerttype\": \"{alert_type}\",\n        \"severity\": \"critical\"\n    },\n    \"annotations\": {\n        \"timestamp\": \"{timestamp}\"\n    }\n  }\n]",
-    "isDefault": true,
-    "type": "http",
-    "title": ""
+    "type": "http"
   }
 ]
