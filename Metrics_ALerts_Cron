@@ -1,0 +1,56 @@
+[
+    {
+        "name": "metrics",
+        "org_id": "default",
+        "stream_type": "metrics",
+        "stream_name": "go_threads",
+        "is_real_time": false,
+        "query_condition": {
+            "type": "custom",
+            "conditions": [],
+            "multi_time_range": []
+        },
+        "trigger_condition": {
+            "period": 10,
+            "operator": ">=",
+            "threshold": 3,
+            "frequency": 2,
+            "cron": "1 40 * * * *",
+            "frequency_type": "cron",
+            "silence": 10,
+            "timezone": "America/Sitka"
+        },
+        "destinations": [
+            "destination_Web_Hook2"
+        ],
+        "context_attributes": {},
+        "enabled": true
+    },
+    {
+        "name": "metrics",
+        "org_id": "default",
+        "stream_type": "metrics",
+        "stream_name": "go_threads",
+        "is_real_time": false,
+        "query_condition": {
+            "type": "custom",
+            "conditions": [],
+            "multi_time_range": []
+        },
+        "trigger_condition": {
+            "period": 10,
+            "operator": ">=",
+            "threshold": 3,
+            "frequency": 2,
+            "cron": "1 40 * * * *",
+            "frequency_type": "cron",
+            "silence": 10,
+            "timezone": "America/Sitka"
+        },
+        "destinations": [
+            "destination_Web_Hook2"
+        ],
+        "context_attributes": {},
+        "enabled": true
+    }
+]
