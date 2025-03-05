@@ -1,0 +1,24 @@
+[
+    {
+        "name": "destination_Web_Hook",
+        "url": "www",
+        "method": "post",
+        "skip_tls_verify": true,
+        "headers": {},
+        "template": "7",
+        "emails": [],
+        "type": "http",
+        "action_id": ""
+    },
+    {
+        "name": "destination_Web_Hook",
+        "url": "www",
+        "method": "post",
+        "skip_tls_verify": true,
+        "headers": {},
+        "template": "7",
+        "emails": [],
+        "type": "http",
+        "action_id": ""
+    }
+]
