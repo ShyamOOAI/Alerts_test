@@ -1,0 +1,58 @@
+[
+    {
+        "name": "cron_detesting",
+        "org_id": "detesting",
+        "stream_type": "logs",
+        "stream_name": "detest",
+        "is_real_time": false,
+        "query_condition": {
+            "type": "custom",
+            "conditions": [],
+            "multi_time_range": []
+        },
+        "trigger_condition": {
+            "period": 10,
+            "operator": ">=",
+            "threshold": 3,
+            "frequency": 2,
+            "cron": "1 40 * * * *",
+            "frequency_type": "cron",
+            "silence": 10,
+            "timezone": "UTC",
+            "tolerance_in_secs": null
+        },
+        "destinations": [
+            "destination_Email_Alert"
+        ],
+        "context_attributes": {},
+        "enabled": true
+    },
+    {
+        "name": "cron_detesting",
+        "org_id": "detesting",
+        "stream_type": "logs",
+        "stream_name": "detest",
+        "is_real_time": false,
+        "query_condition": {
+            "type": "custom",
+            "conditions": [],
+            "multi_time_range": []
+        },
+        "trigger_condition": {
+            "period": 10,
+            "operator": ">=",
+            "threshold": 3,
+            "frequency": 2,
+            "cron": "1 40 * * * *",
+            "frequency_type": "cron",
+            "silence": 10,
+            "timezone": "UTC",
+            "tolerance_in_secs": null
+        },
+        "destinations": [
+            "destination_Email_Alert"
+        ],
+        "context_attributes": {},
+        "enabled": true
+    }
+]
