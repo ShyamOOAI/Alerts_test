@@ -1,12 +1,8 @@
 {
   "name": "Des_email",
-  "url": "",
-  "method": "post",
-  "skip_tls_verify": false,
   "template": "temp",
   "emails": [
     "neha@openobserve.ai"
   ],
-  "type": "email",
-  "action_id": ""
+  "type": "email"
 }
