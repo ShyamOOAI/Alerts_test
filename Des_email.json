@@ -1,8 +1,0 @@
-{
-  "name": "Des_email",
-  "template": "temp",
-  "emails": [
-    "neha@openobserve.ai"
-  ],
-  "type": "email"
-}
