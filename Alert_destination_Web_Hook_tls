@@ -1,20 +1,20 @@
 [
     {
-        "name": "destination_Web_Hook",
+        "name": "",
         "url": "www",
         "method": "post",
         "skip_tls_verify": true,
         "headers": {},
-        "template": "7",
+        "template": "",
         "type": "http"
     },
     {
-        "name": "destination_Web_Hook",
+        "name": "",
         "url": "www",
         "method": "post",
         "skip_tls_verify": true,
         "headers": {},
-        "template": "7",
+        "template": "",
         "type": "http"
     }
 ]
