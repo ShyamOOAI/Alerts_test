@@ -1,33 +1,17 @@
 [
     {
-        "name": "Des_email",
-        "template": "11tem",
+        "name": "",
+        "template": "",
         "emails": [
-            "omkar1@openobserve.ai"
+            ""
         ],
         "type": "email"
     },
     {
-        "name": "Des_email",
-        "template": "11tem",
+        "name": "",
+        "template": "",
         "emails": [
-            "omkar1@openobserve.ai"
-        ],
-        "type": "email"
-    },
-    {
-        "name": "Des_email",
-        "template": "11tem",
-        "emails": [
-            "omkar1@openobserve.ai"
-        ],
-        "type": "email"
-    },
-    {
-        "name": "Des_email",
-        "template": "11tem",
-        "emails": [
-            "omkar1@openobserve.ai"
+            ""
         ],
         "type": "email"
     }
