@@ -50,9 +50,7 @@
     "row_template": "",
     "description": "",
     "enabled": false,
-    "tz_offset": 0,
-    "last_triggered_at": 1745322850064441,
-    "last_satisfied_at": null
+    "tz_offset": 0
   },
   {
     "name": "",
@@ -105,8 +103,6 @@
     "row_template": "",
     "description": "",
     "enabled": false,
-    "tz_offset": 0,
-    "last_triggered_at": 0,
-    "last_satisfied_at": null
+    "tz_offset": 0
   }
 ]
