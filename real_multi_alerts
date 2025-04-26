@@ -1,9 +1,9 @@
 [
    {
       "name":"",
-      "org_id":"default",
+      "org_id":"",
       "stream_type":"logs",
-      "stream_name":"default",
+      "stream_name":"",
       "is_real_time":true,
       "query_condition":{
          "type":"custom",
@@ -37,7 +37,7 @@
          "tolerance_in_secs":null
       },
       "destinations":[
-         "kBxsy"
+         ""
       ],
       "context_attributes":{
          
@@ -45,18 +45,13 @@
       "row_template":"",
       "description":"",
       "enabled":true,
-      "tz_offset":0,
-      "last_triggered_at":0,
-      "last_satisfied_at":null,
-      "owner":"root@example.com",
-      "updated_at":1745655713,
-      "last_edited_by":"root@example.com"
+      "tz_offset":0
    },
    {
       "name":"",
-      "org_id":"default",
+      "org_id":"",
       "stream_type":"logs",
-      "stream_name":"default",
+      "stream_name":"",
       "is_real_time":true,
       "query_condition":{
          "type":"custom",
@@ -90,7 +85,7 @@
          "tolerance_in_secs":null
       },
       "destinations":[
-         "kBxsy"
+         ""
       ],
       "context_attributes":{
          
@@ -98,11 +93,6 @@
       "row_template":"",
       "description":"",
       "enabled":true,
-      "tz_offset":0,
-      "last_triggered_at":0,
-      "last_satisfied_at":null,
-      "owner":"root@example.com",
-      "updated_at":1745655713,
-      "last_edited_by":"root@example.com"
+      "tz_offset":0
    }
 ]
